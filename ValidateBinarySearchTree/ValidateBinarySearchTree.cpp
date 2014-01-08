@@ -7,6 +7,8 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+ 
+ // there is a bug, for example, [10,5,#,3,15]. right?
 class Solution {
 public:
     bool isValidBST(TreeNode *root) {
